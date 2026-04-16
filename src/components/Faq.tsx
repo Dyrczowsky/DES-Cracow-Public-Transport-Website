@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
 const Faq = () => {
-    const [openIndex, setOpenIndex] = useState(null)
+    const [openIndex, setOpenIndex] = useState<null | number>(null)
     const faqsData = [
         {
             question: 'Lightning-Fast Performance',

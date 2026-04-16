@@ -2,12 +2,12 @@
   "name": "des_cracow_public_transport_frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Dyrczowsky.github.io/react-gh-pages",
+  "homepage": "https://dyrczowsky.github.io/DES-Cracow-Public-Transport-Website/",
 
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
