@@ -167,7 +167,6 @@
 
   &::before,
   &::after {
-    content: '';
     position: absolute;
     top: -4.5px;
     border: 5px solid transparent;
